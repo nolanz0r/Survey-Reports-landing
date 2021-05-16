@@ -1,0 +1,28 @@
+.features {
+  margin-top: 90px;
+
+  &-list {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 1200px) {
+  .features {
+    width: 100%;
+    &-list {
+      justify-content: space-between;
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .features {
+    &-list {
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
